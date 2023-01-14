@@ -20,7 +20,7 @@ nav{
     margin: auto;
     padding: 30px 100px;
 }
-nav > ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -65,3 +65,60 @@ nav > ul{
     height: 510px;
     margin-top: 100px;
  }
+
+ /* header -section-end */
+.Features-conteinar{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.images-conteinar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+}
+
+.span-1{
+font-size: 30px;
+font-weight: 900;
+color: #727272;
+}
+.span-2{
+    color: #131313;
+    font-size: 30px;
+    font-weight: 900;
+}
+.span-3{
+    color: #FF900E;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.Features-banner-details{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #727272;
+    font-size: 14px;
+}
+
+.btn{
+    width: 110px;
+    height: 35px;
+    background-color: #fe8800;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+/*---------------------
+ Features-conteinar
+ ---------------------- */
