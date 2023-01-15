@@ -311,3 +311,53 @@ Sponspors-conteinar end
 /*---==============
  footer part end 
  ---===============*/
+
+
+ /*--------------------------
+ ====== mobail viwes=========
+ ----------------------------*/
+
+ @media only screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .conteinar{
+        height: 100%;
+        width: 100%;
+    }
+    .Features-conteinar{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .images-conteinar{
+        grid-template-columns: revert;
+    }
+    .Features-banner{
+        text-align: center;
+    }
+    .project-point-deta{
+        flex-direction: column;
+        align-items: center;
+    }
+    .best-web-conteinar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .web-content{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .Experience-image{
+        display: none;
+    }
+    .header-section-image{
+        display: none;
+      }
+ }
+
+/*======================================================
+---------------------- The End -------------------------*/
