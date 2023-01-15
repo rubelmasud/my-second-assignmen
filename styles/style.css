@@ -329,12 +329,8 @@ Sponspors-conteinar end
         flex-direction: column;
         align-items: center;
         padding: 0 20px;
-        font-size: 12px;
     }
-    .conteinar{
-        height: 100%;
-        width: 100%;
-    }
+
     .Features-conteinar{
         flex-direction: column;
         grid-template-columns: repeat(1,1fr);
