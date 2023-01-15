@@ -26,7 +26,12 @@ nav ul{
     gap: 20px;
     font-size: 18px;
 }
-
+nav ul li:hover{
+    color: white;
+    background-color:#ff8f0e8f;
+    transition: 0.5s;
+    border-radius: 5px;
+}
 /*------------------
  start header part section 
  -------------------*/
@@ -164,6 +169,11 @@ color: #727272;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
+.Experience-information:hover{
+   background-color: #fe87009c;
+   color: red;
+   transition: 0.5s;
+}
 #Experience-information-data{
     padding: 30px;
     column-gap: 10px;
@@ -182,6 +192,18 @@ color: #727272;
     width: 570px;
     height: 750px;
   margin-left: 50px;
+ }
+ .Experience-btn{
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #FF900E;
+    position: relative;
+    bottom: 60px;
+    right: 0px;
+    border-radius: 5px;
  }
  /*====================
   Experience-conteinar end
