@@ -263,6 +263,7 @@ color: #727272;
     width: 200px;
     height: 40px;
     padding: 0px 40px;
+    filter: grayscale(1);
 }
 /* ==================
 Sponspors-conteinar end
@@ -283,6 +284,7 @@ Sponspors-conteinar end
 .footer-logo{
     text-align: center;
     margin: 80px auto;
+    filter: grayscale(1);
 }
 /*---==============
  footer part end 
