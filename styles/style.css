@@ -28,7 +28,7 @@ nav ul{
 }
 
 /*------------------
- start header section 
+ start header part section 
  -------------------*/
  .header-section{
   text-align: center;
@@ -66,7 +66,9 @@ nav ul{
     margin-top: 100px;
  }
 
- /* header -section-end */
+ /* ==================
+ header -section-end 
+ ---------------------*/
 .Features-conteinar{
     display: flex;
     align-items: center;
@@ -120,5 +122,168 @@ color: #727272;
     font-weight: 700;
 }
 /*---------------------
- Features-conteinar
+ Features-conteinar-end
  ---------------------- */
+
+ .Experience-conteinar{
+    display: flex;
+    gap: 30px;
+    width: 85%;
+    height: 800px;
+    margin: auto;
+    margin-top: 70px;
+ }
+ .Experience-banner, .Facts-conteinar, .Sponspors-details{
+    font-size: 12px;
+    color: #727272;
+ }
+ .Experience-banner-main-title{
+    margin-bottom: 20px;
+ }
+ .Experience-banner-main-title h1{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 900;
+ }
+
+.side-line{
+    width: 3px;
+    height: 70px;
+    position: absolute;
+    background-color: #fe8800;
+    display: flex;
+    flex-direction: column;
+}
+
+.Experience-information{
+    width: 100%;
+    height: 145px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+#Experience-information-data{
+    padding: 30px;
+    column-gap: 10px;
+}
+#Experience-information-data h4{
+    margin-bottom: 10px;
+    color: #131313;
+    font-weight: 900;
+}
+.Experience-image{
+    width: 800px;
+    height: 100%;
+ }
+
+ #architect-image{
+    width: 570px;
+    height: 750px;
+  margin-left: 50px;
+ }
+ /*====================
+  Experience-conteinar end
+  ===================== */
+ .Facts-conteinar{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 80px;
+ }
+ .Facts-conteinar h2{
+    color: #131313;
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 15px;
+ }
+
+ /* Facts-conteinar end */
+ .project-point-deta{
+    display: flex;
+    gap: 85px;
+    margin-top: 80px;
+    justify-content: center;
+ }
+
+ .box-conteinar{
+    width: 150.83px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+ }
+ .box-deta{
+    text-align: center;
+    margin: 30px auto;
+ }
+ .icon img{
+    width: 22px;
+    height: 22px;
+ }
+ .point{
+    font-size: 30px;
+    font-weight: 900;
+    color: #424242;
+ }
+ .name p{
+    font-size: 12px;
+    color: #727272;
+    font-weight: 700;
+ }
+ .box-conteinar:hover{
+    background-color: #ff8f0ecb;
+    transition: 0.5s;
+    box-shadow: 7px 7px 3px #727272b2;
+ }
+ /* project point deta end */
+
+ .Sponspors-conteinar{
+    margin-top: 70px;
+    margin-bottom: 30px;
+ }
+ .Sponspors-details{
+    text-align: center;
+ }
+ .Sponspors-details h1{
+    font-size: 27px;
+    font-weight: 900;
+    color: #131313;
+ }
+ 
+ .best-web-conteinar{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 100px;
+ }
+
+.web-content img{
+    width: 200px;
+    height: 40px;
+    padding: 0px 40px;
+}
+/* ==================
+Sponspors-conteinar end
+------------------------ */
+.footer{
+    width: 80%;
+    height: 60px;
+    background: #FFF4E7;
+    margin: auto;
+}
+.footer p{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 14px;
+    color: #424242;
+    font-weight: 700;
+}
+.footer-logo{
+    text-align: center;
+    margin: 80px auto;
+}
+/*---==============
+ footer part end 
+ ---===============*/
